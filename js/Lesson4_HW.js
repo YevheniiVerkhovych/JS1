@@ -7,14 +7,15 @@ masst = [1,5,43,-5,6,43,0,14,-43,15,1,-3,8,3,540,4]
 ;
 
 //1.1
-for (i=0; i<masst.length; i+=2) {
+for (i=0; i<masst.length; i+=3) {
     rez+=masst[i]+" "
 }
 console.log(rez);
 rez=" ";
 //1.2
+var ss=masst[0]+masst[masst.length-1];
 for (var k in masst) {
-    if (masst[k]>(masst[0]+masst[masst.length-1])) rez+=" "+masst[k];
+    if (masst[k]>ss) rez+=" "+masst[k];
 }
 console.log(rez);
 
