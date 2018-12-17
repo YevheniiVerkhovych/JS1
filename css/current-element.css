@@ -1,0 +1,13 @@
+.blocks{
+	display: flex;
+	justify-content: space-between;
+}
+
+.block{
+	background: red;
+	font-size: 30px;
+	width: 15%;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+}

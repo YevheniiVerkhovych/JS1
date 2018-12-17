@@ -41,7 +41,7 @@ function game() {
 
     result.style.display    = "block";
     userAnswerImg.src       = "images/" + userAnswer + ".png";
-    computerAnswerImg       = "images/" + computerAnswerImg + ".png"; 
+    computerAnswerImg       = "images/" + computerAnswer + ".png"; 
     messagePlace.innerText  = message[table[userAnswer][computerAnswer]];
 }
 
